@@ -1,0 +1,1 @@
+![GRC](Notes/Industry/Frameworks/GRC)

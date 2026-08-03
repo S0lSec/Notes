@@ -1,6 +1,5 @@
 # (Windows Server Update Service)
 WSUS is Windows Server Update Services
-
 ### Server Deployment Options
 WSUS Implementation:
 	- Single server
@@ -14,7 +13,7 @@ WSUS database:
 	- SQL Server database
 
 ### Update management process
-<IMG>
+![[Pasted image 20260722001255.png]]
 
 ### Server requirements
 Software requirements:

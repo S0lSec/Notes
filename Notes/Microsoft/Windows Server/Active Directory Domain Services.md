@@ -85,7 +85,7 @@ Create OUs to:
 - Delegate administrative permissions
 
 ## Domain Controller
-A domain controller is a server that stores copies of the AD DS database (Ntds.dit) and the SYSVOL folder. All domain controllers except RODCs store ad read/write copy of bothj Ntds.dit and the SYSVOL folder.
+A domain controller is a server that stores copies of the AD DS database (Ntds.dit) and the SYSVOL folder. All domain controllers except RODCs store ad read/write copy of both Ntds.dit and the SYSVOL folder.
 
 A domain controller is responsible for authenticating user and computer credentials, determining what authorization users have, keeping AD databases in sync, enforcing group policy and often hosting DNS for the domain.
 
@@ -121,11 +121,11 @@ The result of DNS queries for domain controllers are returned in this order:
 3. A random list of domain controllers in other sites, if no domain controller is available in the nest closest site.
 
 ## AD DS sign-in process
-1. User account is authenticated to the DC
-2. DC returns a TGT
-3. Client uses TGT to apply for workstation access
+(User only authenticates once and get access to all)
+1. User account is authenticated to the DC (which is acting as a Key Distribution Service)
+2. DC returns a Ticket Granting-Ticket
+3. Client uses Ticket Granting-Ticket to apply for workstation access
 4. DC grants access
-5. Client uses TGT to apply for server access
+5. Client uses Ticket Granting-Ticket to apply for server access
 6. DC returns access
-
 ![](/Images/AD_DS_sign_in.png)

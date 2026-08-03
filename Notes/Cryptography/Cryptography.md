@@ -1,11 +1,12 @@
-Cryptography - The development and use of codes
-Cryptanalysis - The breaking of those codes
+**Cryptography** - The development and use of codes
+**Cryptanalysis** - The breaking of those codes
 
-Cryptographic Hash Operation:
+## Cryptographic Hash Operation:
         Data goes through Hash Function and returns Hash Value
         h=H(x), x=data, h=Hash, H=Hash Function
 
-hashing can be used to be check to integrity of data
+# Hashing
+- hashing can be used to be check to integrity of data
 
 HMAC Hashing Algorithm:
         Using a key with the data to create the hash value
@@ -15,10 +16,10 @@ Three primary objective of securing communications:
         Authentication - Guarantees that the message is not forgery
         Integrity - Guarantees that no one intercepted the message and altered it
         Confidentially - Guarantees that if the message is captures is cannot be deciphered
-
+# Encryption
 Asymmetric and Symmetric encryption are the two classes of encryption used to provide data confidentiality. These two classes differ in how they use keys.
 
-Symmetric:
+**Symmetric**:
         - Use the same key to encrypt and decrypt
         - Keys are short
         - Faster and asymmetric
@@ -27,13 +28,14 @@ Symmetric:
                 KEY                 KEY
         DATA -> ENCRYPT -> HASH -> DECRYPT -> DATA
 
-Asymmetric:
+**Asymmetric**:
         - Used different keys for encryption and decryption
         - Keys are long
         - Computationally taxing so slower
         - Commonly used for quick data transactions
                 EKEY                DKEY
         DATA -> ENCRYPT -> HASH -> DECRYPT -> DATA
+![[Pasted image 20260731144159.png]]
 
 DES or AES are Symmetric encryption
 
