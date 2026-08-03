@@ -3,3 +3,5 @@ Nothing special just notes on cyber sec
 - Feel free to use
 - Contact me if something is wrong or needs updating
 - This is just for storage and ease of access
+
+Images may not load when viewing on github. Download and open with obsidian for complete use.
