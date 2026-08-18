@@ -1,0 +1,37 @@
+# Microsoft Purview
+### Audit
+Microsoft Purview audit helps organisations effectively respond to security events, forensic investigations, internal investigations and compliance obligations.
+### eDiscovery
+Microsoft Purview eDiscovery is used to identify and deliver electronic information that can be used as evidence in legal cases
+# Compliance Manager
+Simplifies compliance and reduces risk by providing:
+- prebuilt assessments based on common standards
+- Workflow capabilities to complete risk assessments
+- Step-by-step improvement actions
+- Compliacne score that shows overall compliance posture
+### Key Elements of Compliance Manager
+- Controls
+- Assessments
+- Regulations
+- Improvement actions
+# Compliance Score
+Helps an organisation understand its current compliance posture
+
+Helps prioritse actions based on their potential to reduce risk
+# Data Lifecycle Management with Retention Labels and Policies
+Manage and govern information by ensuring content is kept only for the required time.
+
+Retention labels:
+- Assigned at an item level
+- Only one label can be assigned at a time
+- Retention settings travel with the content
+- Can be applied automatically
+- Support disposition review
+- Published through label policy
+
+Retention policies:
+- Assigned at a site level or mailbox level
+- A single policy can be applied to multiple locations, or to specific locations or users
+- Items inherit the retention settings from their container
+# Records Management
+Helps an org look after their legal obligations and helps demonstrate compliance with regulations.

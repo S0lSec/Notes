@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"275429e3ad45cf08","type":"group","x":800,"y":-200,"width":320,"height":380,"label":"NTDS.dit Partitions"},
+		{"id":"3f87938bf316e6a1","type":"group","x":1320,"y":200,"width":540,"height":220,"label":"Objects"},
+		{"id":"a7813fc51fdc424a","type":"group","x":1320,"y":-220,"width":540,"height":160,"label":"Attributes"},
+		{"id":"1fd0ee392eda6ea6","type":"group","x":1320,"y":-10,"width":540,"height":160,"label":"Classes"},
+		{"id":"6f94a0240f2416a5","type":"text","text":"Name","x":1340,"y":-200,"width":250,"height":60},
+		{"id":"85cb422fdc969ed4","type":"text","text":"Password Expires","x":1590,"y":-200,"width":250,"height":60},
+		{"id":"585d5b0b8f73a313","type":"text","text":"Email","x":1340,"y":-140,"width":250,"height":60},
+		{"id":"d34dd7c4213ab61d","type":"text","text":"Manager","x":1590,"y":-140,"width":250,"height":60},
+		{"id":"66d1a030998ac471","type":"text","text":"Forest topology","x":1320,"y":-360,"width":250,"height":60},
+		{"id":"aae2f49b1929eafa","type":"text","text":"ntds.dit (Database)","x":281,"y":-60,"width":250,"height":60},
+		{"id":"a7a3628b5f9794d1","type":"text","text":"Active Directory","x":-200,"y":-60,"width":250,"height":60},
+		{"id":"2e91403a53be717a","type":"text","text":"User","x":1340,"y":10,"width":250,"height":60},
+		{"id":"adee713df47fb63c","type":"text","text":"subnet","x":1340,"y":70,"width":250,"height":60},
+		{"id":"3461ba35f18f98ea","type":"text","text":"Computer","x":1590,"y":10,"width":250,"height":60},
+		{"id":"c36364015fa61fb1","type":"text","text":"group","x":1590,"y":70,"width":250,"height":60},
+		{"id":"4b4bba085dd9fda1","type":"text","text":"User Accounts","x":1340,"y":220,"width":250,"height":60},
+		{"id":"fd8cd6e5623b8fa0","type":"text","text":"Computer Accounts","x":1340,"y":280,"width":250,"height":60},
+		{"id":"ef708ada7e683b48","type":"text","text":"Security Groups","x":1340,"y":340,"width":250,"height":60},
+		{"id":"630fbb1081716046","type":"text","text":"Application","x":830,"y":70,"width":250,"height":50},
+		{"id":"822e8b4fc6720256","type":"text","text":"Domain","x":830,"y":0,"width":250,"height":50},
+		{"id":"d2183275c9514792","type":"text","text":"Schema","x":830,"y":-80,"width":250,"height":50},
+		{"id":"2426c53ea6f4a360","type":"text","text":"Configuration","x":830,"y":-160,"width":250,"height":50},
+		{"id":"6269431387d90806","type":"text","text":"Note: Domain partition hold objects relative to the domain.","x":860,"y":190,"width":250,"height":110},
+		{"id":"a45c5ae3de60bb39","type":"text","text":"Shared folders","x":1590,"y":220,"width":250,"height":60},
+		{"id":"23174cd8edfa0916","type":"text","text":"Trusts","x":1590,"y":280,"width":250,"height":60},
+		{"id":"f692c322ca543da9","type":"text","text":"Organisational Units","x":1590,"y":340,"width":250,"height":60},
+		{"id":"f925ffc5abf2ba39","x":-280,"y":-728,"width":601,"height":428,"type":"file","file":"Microsoft/AZ-800 (Windows Server Hybrid Core Infrastructure)/Authentication Process.md"}
+	],
+	"edges":[
+		{"id":"1a69a5bb07a20366","fromNode":"a7a3628b5f9794d1","fromSide":"right","toNode":"aae2f49b1929eafa","toSide":"left"},
+		{"id":"275e350b6f9647c1","fromNode":"aae2f49b1929eafa","fromSide":"right","toNode":"630fbb1081716046","toSide":"left"},
+		{"id":"d2e4baa59493b1a9","fromNode":"aae2f49b1929eafa","fromSide":"right","toNode":"d2183275c9514792","toSide":"left"},
+		{"id":"c9cfe449e00ad381","fromNode":"aae2f49b1929eafa","fromSide":"right","toNode":"2426c53ea6f4a360","toSide":"left"},
+		{"id":"af91f99c42ab2a7c","fromNode":"aae2f49b1929eafa","fromSide":"right","toNode":"822e8b4fc6720256","toSide":"left"},
+		{"id":"df0867c01185b5e5","fromNode":"d2183275c9514792","fromSide":"right","toNode":"a7813fc51fdc424a","toSide":"left"},
+		{"id":"17500ed69a3022c2","fromNode":"2426c53ea6f4a360","fromSide":"right","toNode":"66d1a030998ac471","toSide":"left"},
+		{"id":"f6da91bc89a94030","fromNode":"822e8b4fc6720256","fromSide":"right","toNode":"3f87938bf316e6a1","toSide":"left"},
+		{"id":"d7aa056db707da11","fromNode":"d2183275c9514792","fromSide":"right","toNode":"1fd0ee392eda6ea6","toSide":"left"},
+		{"id":"62322fc0653620b8","fromNode":"a7a3628b5f9794d1","fromSide":"top","toNode":"f925ffc5abf2ba39","toSide":"bottom"}
+	]
+}

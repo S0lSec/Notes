@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"df01f31ff16cb104","type":"group","x":-580,"y":-400,"width":970,"height":960,"color":"3","label":"Forest"},
+		{"id":"6b8399ab70eb4914","type":"group","x":-560,"y":-330,"width":930,"height":450,"color":"4","label":"Tree"},
+		{"id":"63d1e09538eaf977","type":"group","x":-95,"y":320,"width":291,"height":220,"label":"Shared"},
+		{"id":"29ccd2929591e162","x":-1020,"y":-76,"width":290,"height":216,"type":"group","label":"Partitions"},
+		{"id":"c7675e6c53693559","type":"text","text":"me.com","x":-220,"y":-310,"width":250,"height":60},
+		{"id":"51325013c606cd6b","type":"text","text":"uk.me.com","x":100,"y":-113,"width":250,"height":60},
+		{"id":"3e2588dd73fb4448","type":"text","text":"au.me.com","x":-540,"y":-113,"width":250,"height":60},
+		{"id":"1d202fed09c98a9a","type":"text","text":"you.com","x":-520,"y":410,"width":250,"height":60},
+		{"id":"395d1dccf77480d6","type":"text","text":"Schema","x":-74,"y":340,"width":250,"height":60},
+		{"id":"c7e250088b96a78e","type":"text","text":"Configuration","x":-75,"y":400,"width":250,"height":60},
+		{"id":"e925715c8335b6e8","type":"text","text":"Global Catalog","x":-74,"y":460,"width":250,"height":60},
+		{"id":"e5e223bbae506c5b","x":-1000,"y":4,"width":250,"height":60,"type":"text","text":"Configuration"},
+		{"id":"eadd185e42e34ea4","x":-1000,"y":-56,"width":250,"height":60,"type":"text","text":"Schema"},
+		{"id":"ac8d04d191452706","x":-1000,"y":64,"width":250,"height":60,"type":"text","text":"Application (You choose which DC replicate)"}
+	],
+	"edges":[
+		{"id":"e6a32c81b03ce731","fromNode":"c7675e6c53693559","fromSide":"bottom","toNode":"3e2588dd73fb4448","toSide":"top"},
+		{"id":"97fe3a1d9628f48a","fromNode":"c7675e6c53693559","fromSide":"bottom","toNode":"51325013c606cd6b","toSide":"top"},
+		{"id":"a8ac69fe46101dd2","fromNode":"3e2588dd73fb4448","fromSide":"bottom","toNode":"51325013c606cd6b","toSide":"bottom","toEnd":"none","label":"Trust each other"},
+		{"id":"7531f15754cb1def","fromNode":"1d202fed09c98a9a","fromSide":"right","toNode":"63d1e09538eaf977","toSide":"left","toEnd":"none"},
+		{"id":"89c8a0debfc40cb0","fromNode":"63d1e09538eaf977","fromSide":"top","toNode":"6b8399ab70eb4914","toSide":"bottom","toEnd":"none"},
+		{"id":"fd4bc01d57d8a6f5","fromNode":"df01f31ff16cb104","fromSide":"left","toNode":"29ccd2929591e162","toSide":"right"}
+	]
+}

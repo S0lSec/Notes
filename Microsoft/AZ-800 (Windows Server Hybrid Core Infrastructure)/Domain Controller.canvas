@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"f0ce97ed5a160678","type":"text","text":"Domain Controller","x":-180,"y":0,"width":250,"height":60},
+		{"id":"282c226bbd201eee","type":"text","text":"Group Policy","x":-180,"y":200,"width":250,"height":60},
+		{"id":"1ff0b59ef555b806","type":"text","text":"Replicates Chnages","x":-590,"y":0,"width":250,"height":60},
+		{"id":"b48c54c74b538e8f","type":"text","text":"AD database (ntds.dit)","x":-180,"y":-160,"width":250,"height":60},
+		{"id":"4c5fba7a1b087e42","type":"file","file":"Microsoft/AZ-800 (Windows Server Hybrid Core Infrastructure)/AD.canvas","x":-255,"y":-700,"width":400,"height":400},
+		{"id":"c186f7c1643fdc02","type":"text","text":"Authentication Logons","x":180,"y":0,"width":250,"height":60},
+		{"id":"f0bf1e7de4a22fa0","x":540,"y":0,"width":250,"height":60,"type":"text","text":"KDC Service"}
+	],
+	"edges":[
+		{"id":"70151f9a2e058fe1","fromNode":"b48c54c74b538e8f","fromSide":"top","toNode":"4c5fba7a1b087e42","toSide":"bottom"},
+		{"id":"979623086e733a5c","fromNode":"f0ce97ed5a160678","fromSide":"top","toNode":"b48c54c74b538e8f","toSide":"bottom"},
+		{"id":"9037c1517a139ea2","fromNode":"f0ce97ed5a160678","fromSide":"right","toNode":"c186f7c1643fdc02","toSide":"left"},
+		{"id":"04bf0fee8f3b7e5d","fromNode":"c186f7c1643fdc02","fromSide":"right","toNode":"f0bf1e7de4a22fa0","toSide":"left"},
+		{"id":"3330e6791c183ab3","fromNode":"f0ce97ed5a160678","fromSide":"bottom","toNode":"282c226bbd201eee","toSide":"top"},
+		{"id":"e713a6edc940eeb1","fromNode":"f0ce97ed5a160678","fromSide":"left","toNode":"1ff0b59ef555b806","toSide":"right"}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"97ebacd046e274f1","x":-620,"y":-80,"width":250,"height":60,"type":"text","text":"Resource Records"},
+		{"id":"ca0cd9ff883567fd","x":-1060,"y":-190,"width":250,"height":60,"type":"text","text":"AAAA (IPv6)"},
+		{"id":"360a3beedf9cd32d","x":-1060,"y":40,"width":250,"height":60,"type":"text","text":"SRV (Available service)"},
+		{"id":"c0974f5ab194dc2d","x":-1053,"y":-320,"width":250,"height":60,"type":"text","text":"A (IPv4)"},
+		{"id":"c7d5d7f20ca6da21","x":-1053,"y":-430,"width":250,"height":60,"type":"text","text":"MX (email)"},
+		{"id":"99dc1fcfaeefa2ae","x":-1060,"y":-80,"width":250,"height":60,"type":"text","text":"SOA (Primay Name Server)"},
+		{"id":"6f2228728e158116","x":-1053,"y":150,"width":250,"height":60,"type":"text","text":"CName (Alias)"},
+		{"id":"6009adba115e93f6","x":-1053,"y":270,"width":250,"height":60,"type":"text","text":"PTR (Mapping IP)"},
+		{"id":"196ab7335f116e37","x":-240,"y":-75,"width":92,"height":50,"type":"text","text":"DNS"},
+		{"id":"f2e276d5defaf3a5","x":-20,"y":-80,"width":250,"height":60,"type":"text","text":"Zones"},
+		{"id":"3c3ae6cb53f824ec","x":360,"y":-260,"width":250,"height":60,"type":"text","text":"Forward lookup zone\nhostname -> IP"},
+		{"id":"e6b304870ecc1860","x":360,"y":100,"width":250,"height":60,"type":"text","text":"Reverse loopup zone\nIP -> hostname"}
+	],
+	"edges":[
+		{"id":"8e3fd9d537d810f0","fromNode":"f2e276d5defaf3a5","fromSide":"right","toNode":"3c3ae6cb53f824ec","toSide":"left"},
+		{"id":"6dc3ea9a8d12012c","fromNode":"f2e276d5defaf3a5","fromSide":"right","toNode":"e6b304870ecc1860","toSide":"left"},
+		{"id":"5528b22bc4a793a0","fromNode":"196ab7335f116e37","fromSide":"right","toNode":"f2e276d5defaf3a5","toSide":"left"},
+		{"id":"a8e2d17c6914760d","fromNode":"196ab7335f116e37","fromSide":"left","toNode":"97ebacd046e274f1","toSide":"right"},
+		{"id":"227c4d8c7bc97f8a","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"c7d5d7f20ca6da21","toSide":"right"},
+		{"id":"dae441ee6c89168a","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"c0974f5ab194dc2d","toSide":"right"},
+		{"id":"911a775d4060af83","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"ca0cd9ff883567fd","toSide":"right"},
+		{"id":"68736c54bd70252e","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"99dc1fcfaeefa2ae","toSide":"right"},
+		{"id":"f4c4868b4691060a","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"360a3beedf9cd32d","toSide":"right"},
+		{"id":"000dd79a6dd3bbbf","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"6f2228728e158116","toSide":"right"},
+		{"id":"f99a01db292a4d83","fromNode":"97ebacd046e274f1","fromSide":"left","toNode":"6009adba115e93f6","toSide":"right"}
+	]
+}
