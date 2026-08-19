@@ -50,4 +50,4 @@ Helps organisations discover, protect and investigate sensitive data risks acros
 
 Provides a view of sensitive data risks across cloud, on-prem, SaaS and AI environment
 # Data Security Investigations
-Helps organisations discover, protect and investigate sensitivbe data risks across their digital estate
+Helps organisations discover, protect and investigate sensitive data risks across their digital estate

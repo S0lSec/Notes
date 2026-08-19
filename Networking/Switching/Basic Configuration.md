@@ -1,4 +1,4 @@
- m# Initial Setup
+# Initial Setup
 1. Hostname
 2. Disable DNS lookup
 3. Add banner

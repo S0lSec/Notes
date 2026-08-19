@@ -1,3 +1,3 @@
-![Cryptography][Notes/Cryptography/Cryptography]
+![Cryptography][Cryptography/Cryptography]
 
 ![keys][Notes/Cryptography/Keys]

@@ -2,11 +2,11 @@
 	"nodes":[
 		{"id":"f0ce97ed5a160678","type":"text","text":"Domain Controller","x":-180,"y":0,"width":250,"height":60},
 		{"id":"282c226bbd201eee","type":"text","text":"Group Policy","x":-180,"y":200,"width":250,"height":60},
-		{"id":"1ff0b59ef555b806","type":"text","text":"Replicates Chnages","x":-590,"y":0,"width":250,"height":60},
+		{"id":"1ff0b59ef555b806","type":"text","text":"Replicates Changes","x":-590,"y":0,"width":250,"height":60},
 		{"id":"b48c54c74b538e8f","type":"text","text":"AD database (ntds.dit)","x":-180,"y":-160,"width":250,"height":60},
 		{"id":"4c5fba7a1b087e42","type":"file","file":"Microsoft/AZ-800 (Windows Server Hybrid Core Infrastructure)/AD.canvas","x":-255,"y":-700,"width":400,"height":400},
 		{"id":"c186f7c1643fdc02","type":"text","text":"Authentication Logons","x":180,"y":0,"width":250,"height":60},
-		{"id":"f0bf1e7de4a22fa0","x":540,"y":0,"width":250,"height":60,"type":"text","text":"KDC Service"}
+		{"id":"f0bf1e7de4a22fa0","type":"text","text":"KDC Service","x":540,"y":0,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"70151f9a2e058fe1","fromNode":"b48c54c74b538e8f","fromSide":"top","toNode":"4c5fba7a1b087e42","toSide":"bottom"},
