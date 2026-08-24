@@ -1,1 +1,1 @@
-![GRC](Industry/Frameworks/GRC.md)
+![GRC](Industry+Ethics+Law/Frameworks/GRC.md)

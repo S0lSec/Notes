@@ -89,11 +89,13 @@ Your data is always replicated to ensure durability and high availability.
 ![](/Images/locall_redundant_storage_azure.png)
 - Lowest-cost
 - Least durable
+- Data is stored in a single datacenter
 ## Zone Redundant Storage
 ![](/Images/zone_redundant_storage_azure.png)
 - Replicates your data across 3 storage clusters in a single region
 - Each storage cluster is physically separated from each other
 - Is not available in all regions
+- Data is stored in multiple datacenters in a single region
 ## Geo-Redundant Storage
 ![](/Images/geo-redundant_storage_azure.png)
 - Replicated your data to a secondary region
@@ -102,6 +104,7 @@ Your data is always replicated to ensure durability and high availability.
 ![](/Images/geo-zone_redundant_storage_azure.png)
 - Protection from regional outages
 - Storage account is replicated across 3 zones in primary region
+- Data is stored in multiple regions
 # Access Storage
 Every object stored in Azure Storage has a unique URL address.
 Some examples:

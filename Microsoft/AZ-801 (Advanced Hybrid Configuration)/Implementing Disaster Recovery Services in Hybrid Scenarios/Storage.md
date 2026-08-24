@@ -1,0 +1,1 @@
+![STORAGE](Microsoft/AZ-900%20(Azure%20Fundamentals)/Storage.canvas)

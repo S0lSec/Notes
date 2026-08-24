@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"77f47681e421bb24","type":"text","text":"# Recon","x":-321,"y":-326,"width":250,"height":60},
+		{"id":"d9ff3dd155bb0ec7","type":"text","text":"# Weaponisation","x":-321,"y":-200,"width":250,"height":60},
+		{"id":"94af40e263e1f9cc","type":"text","text":"# Delivery","x":-321,"y":-80,"width":250,"height":60},
+		{"id":"8b3df30b894a145f","type":"text","text":"# Exploitation","x":-321,"y":40,"width":250,"height":60},
+		{"id":"d22eed8e75e0a4fc","type":"text","text":"# Installation","x":-321,"y":160,"width":250,"height":60},
+		{"id":"3e46cf0d34735ab7","type":"text","text":"# Command & Control (C2)","x":-374,"y":300,"width":357,"height":60},
+		{"id":"1d522ed3881e1c07","type":"text","text":"# Actions on Objectives ","x":-354,"y":440,"width":316,"height":60}
+	],
+	"edges":[
+		{"id":"fd7226d432a871a4","fromNode":"77f47681e421bb24","fromSide":"bottom","toNode":"d9ff3dd155bb0ec7","toSide":"top"},
+		{"id":"211d140d8758ea9b","fromNode":"d9ff3dd155bb0ec7","fromSide":"bottom","toNode":"94af40e263e1f9cc","toSide":"top"},
+		{"id":"4ebb5bde3cfd38ba","fromNode":"94af40e263e1f9cc","fromSide":"bottom","toNode":"8b3df30b894a145f","toSide":"top"},
+		{"id":"9b0540d4bd0b31b0","fromNode":"8b3df30b894a145f","fromSide":"bottom","toNode":"d22eed8e75e0a4fc","toSide":"top"},
+		{"id":"ededaa67954fbf68","fromNode":"d22eed8e75e0a4fc","fromSide":"bottom","toNode":"3e46cf0d34735ab7","toSide":"top"},
+		{"id":"8b4e205a80edf777","fromNode":"3e46cf0d34735ab7","fromSide":"bottom","toNode":"1d522ed3881e1c07","toSide":"top"}
+	]
+}

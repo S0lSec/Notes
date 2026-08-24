@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"0e39a17011cc3dc9","x":180,"y":98,"width":250,"height":122,"type":"text","text":"## Snapshot\n1. Backsup a point-in-time of a disk/system"},
+		{"id":"84cf043150365396","x":-540,"y":98,"width":250,"height":122,"type":"text","text":"## Mirror\n1. Backsup exact copy of the source"},
+		{"id":"bea726b8c090b656","x":-180,"y":-40,"width":250,"height":60,"type":"text","text":"# Backup Types"},
+		{"id":"5ded2101c61c23a9","x":-180,"y":-360,"width":250,"height":134,"type":"text","text":"## Differential\n1. Backsup changes from last full backup"},
+		{"id":"381bbcb3018464d3","x":-180,"y":200,"width":250,"height":160,"type":"text","text":"## Continuous\n1. Backsup changes continously as they happen"},
+		{"id":"4ae210405644e630","x":180,"y":-246,"width":250,"height":236,"type":"text","text":"## Incremental\n1. Backs up changes from last backup\n2. Uses the least amount of storage\n3. Very fast\n4. Slow to restore from"},
+		{"id":"08c08237692bcc00","x":-540,"y":-226,"width":250,"height":216,"type":"text","text":"## Full\n1. Backs up everything\n2. Takes the longest\n3. Uses a lot of storage\n4. Fastest to restore from"}
+	],
+	"edges":[
+		{"id":"dd0506e45232e7df","fromNode":"bea726b8c090b656","fromSide":"top","toNode":"5ded2101c61c23a9","toSide":"bottom"},
+		{"id":"b1617b984de36590","fromNode":"bea726b8c090b656","fromSide":"bottom","toNode":"381bbcb3018464d3","toSide":"top"},
+		{"id":"b8961739fec01c37","fromNode":"bea726b8c090b656","fromSide":"right","toNode":"0e39a17011cc3dc9","toSide":"left"},
+		{"id":"49dd49636c95815b","fromNode":"bea726b8c090b656","fromSide":"right","toNode":"4ae210405644e630","toSide":"left"},
+		{"id":"82f65661eb5abe5c","fromNode":"bea726b8c090b656","fromSide":"left","toNode":"08c08237692bcc00","toSide":"right"},
+		{"id":"10cf97031ea0116d","fromNode":"bea726b8c090b656","fromSide":"left","toNode":"84cf043150365396","toSide":"right"}
+	]
+}
