@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f390ff09f38c5350","type":"text","text":"## Application Security Groups\nApplies src/dst rules to NICs","x":-336,"y":-620,"width":265,"height":136},
+		{"id":"e5ced76dc4c4e709","type":"text","text":"## Azure Firewall\nUses NAT rules to control inbound/outbound access","x":262,"y":-600,"width":250,"height":116},
+		{"id":"87a0a7d8f2119e61","type":"text","text":"## Windows Firewall\nHost-based firewall","x":-336,"y":-200,"width":250,"height":100},
+		{"id":"22e33b7e80a36674","type":"text","text":"## Network Watcher\nMonitor and diagnose network conditions","x":262,"y":-200,"width":250,"height":120},
+		{"id":"38ec53e5418329f2","type":"text","text":"# Network Security","x":-40,"y":-380,"width":291,"height":71},
+		{"id":"665ecb910dbc057e","type":"text","text":"## Security Policies","x":1279,"y":-289,"width":250,"height":60},
+		{"id":"e34a5486db480aaa","type":"text","text":"## Defender for Cloud\n- Track compliance against regulatory standards.\n- Protect your environment + data","x":1279,"y":-580,"width":301,"height":201},
+		{"id":"2cc764bab2ba8f3e","type":"text","text":"# Audit Win Svr IaaS VM Security","x":800,"y":-300,"width":300,"height":81},
+		{"id":"ad21ffa8b8e969cd","type":"text","text":"## Sentinel\nSIEM & SOAR","x":1279,"y":-120,"width":250,"height":80},
+		{"id":"9c2c703fa9db0731","x":641,"y":80,"width":250,"height":60,"type":"text","text":"# Encryption\n"},
+		{"id":"2868c16c789724b6","x":415,"y":302,"width":250,"height":60,"type":"text","text":"### Linux - DM-Crypt"},
+		{"id":"385df7720754b2a5","x":850,"y":302,"width":250,"height":60,"type":"text","text":"### Win - BitLocker"}
+	],
+	"edges":[
+		{"id":"3d63c5ccd2e3f873","fromNode":"38ec53e5418329f2","fromSide":"left","toNode":"f390ff09f38c5350","toSide":"bottom"},
+		{"id":"3cc4df1b510a4355","fromNode":"38ec53e5418329f2","fromSide":"left","toNode":"87a0a7d8f2119e61","toSide":"top"},
+		{"id":"9f58eacfbdd5ea9d","fromNode":"38ec53e5418329f2","fromSide":"right","toNode":"22e33b7e80a36674","toSide":"top"},
+		{"id":"d4256b683c18bd2d","fromNode":"38ec53e5418329f2","fromSide":"right","toNode":"e5ced76dc4c4e709","toSide":"bottom"},
+		{"id":"a027cd05976d59b9","fromNode":"2cc764bab2ba8f3e","fromSide":"right","toNode":"e34a5486db480aaa","toSide":"left"},
+		{"id":"69acc28608f0dd38","fromNode":"2cc764bab2ba8f3e","fromSide":"right","toNode":"665ecb910dbc057e","toSide":"left"},
+		{"id":"f031d1fa3faedb81","fromNode":"2cc764bab2ba8f3e","fromSide":"right","toNode":"ad21ffa8b8e969cd","toSide":"left"},
+		{"id":"d0af58372ef79973","fromNode":"9c2c703fa9db0731","fromSide":"bottom","toNode":"2868c16c789724b6","toSide":"top"},
+		{"id":"5be38f04a54c5d85","fromNode":"9c2c703fa9db0731","fromSide":"bottom","toNode":"385df7720754b2a5","toSide":"top"}
+	]
+}

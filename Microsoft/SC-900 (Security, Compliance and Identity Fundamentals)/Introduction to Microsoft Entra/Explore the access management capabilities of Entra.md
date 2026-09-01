@@ -16,7 +16,11 @@ Conditional Access (CA) policies are if-then statements
 **Protecting AI services**
 - Conditional access policies can protect AI services from misuse and unathorised access
 # Entra Global Secure Access
-GSA uses Zero Trust network, identity and endpoint access controls to secure access.
+GSA is Microsoft's Security Service Edge (SSE) solution uses Zero Trust network, identity and endpoint access controls to secure access.
+
+It combines Entra Internet Access, Entra Internet Access for Microsoft Services and Entra Private Access with Defender for Cloud Apps.
+
+Gives control over network traffic at the end-user computing de
 
 - **Entra Internet Access** provides an identity-centric Secure Web Gateway (SWG) solution for SaaS applications and other internet traffic
 - **Entra Internet Access for Microsoft Services** enhances Entra ID capabilities with direct connectivity to supported Microsoft services, improving security, performance and resilience
