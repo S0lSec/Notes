@@ -1,5 +1,7 @@
 ACLs are used to filter traffic passing through routers, similar to a firewall. Each interface on a router can have a different ACL for both inbound and outbound traffic.
 
+Apply ACLs as close to the destination as possible.
+
 ACLs match values found in IP, TCP, UDP and other protocol headers.
 ACLs are also used for other features such as QoS, by matching specific traffic type.
 ![[Pasted image 20260821082430.png]]
@@ -15,4 +17,5 @@ In this topology ACL can be applied:
 - Inbound on R2 G0/0 interface
 - Outbound on R2 G0/1 interface
 # ACL Types
-Standard & Extended
+- [Standard](/Networking/Routing/Access%20Control%20Lists%20(ACLs)/Standard.md)
+- [Extended](/Networking/Routing/Access%20Control%20Lists%20(ACLs)/Extended.md)
