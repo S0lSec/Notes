@@ -1,6 +1,6 @@
 # Microsoft Entra ID Integration
 ## Select a Microsoft Entra ID integration model
-Entra ID is part of the platform as a service (PaaS) offering and operates as a Microsoft-manged directory service in the cloud.
+Entra ID is part of the platform as a service (PaaS) offering and operates as a Microsoft-managed directory service in the cloud.
 - Cloud-native and hybrid identity
 - Users, Groups, devices management
 - Open Cloud Standard Protocols

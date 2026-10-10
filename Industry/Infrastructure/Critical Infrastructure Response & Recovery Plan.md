@@ -1,0 +1,115 @@
+# Protection Plan Stages
+## Plan Documentation
+Review documentation ensuring that it is:
+- Comprehensive
+- Up to date
+- Aligns with the organisations goals and objectives
+- Look for clear guidelines
+- Roles and responsibilities for all stakeholders
+## Risk Assessment
+- Evaluate the organisations risk assessment process
+- Identify potential threats and vulnerabilities to its critical infrastructure
+- The assessment covers physical risks and cyber risks
+- Consider the methodology, scope and frequency of risk assessments conducted
+## Asset Identification
+- Determine whether the plan adequately identifies and categorizes critical infrastructure assets within the organisation
+	- This includes physical assets and digital assets
+## Risk Mitigation Strategies
+- Examine the plans strategies and controls for mitigating identified risks.
+- Look for measures such as:
+	- Physical security measures
+	- Cybersecurity controls
+	- Access Controls
+	- Redundancy plans
+	- Backup systems
+	- Disaster recovery procedures
+## Incident Response and Business Continuity
+- Evaluate the organisations incident response and business continuity plans
+- Assess whether they provide clear guidelines and procedures for responding to security incidents and mitigating their impact on critical infrastructure
+- Consider factors such as:
+	- Incident detection
+	- Escalation procedures
+	- Communication protocols for stakeholders and authorities
+	- Recovery processes
+## Testing and Training
+- Assess whether the organisation conducts regular, testing, drills and exercises to validate the effectiveness of the critical infrastructure protection plan
+- Consider whether training programs are in place to:
+	- Educate employees on:
+		- security protocols
+		- incident response
+		- best practices
+	- Tabletop exercises
+	- Penetration testing
+	- Simulated cyber-attacks are also carried out to test the organisation cybersecurity resilience
+## Compliance and Legal Requirements
+- Ensure that the plan addresses
+	- Relevant compliance obligations
+	- Legal requirements
+	- Industry standards
+- Evaluate whether the organisations critical infrastructure protection plan aligns with:
+	- Regulation related to data protection laws
+	- Privacy regulations
+	- Intellectual property
+	- Any applications law
+## Continuous Improvement
+- Assess whether the organisation has a mechanism in place for:
+	- Ongoing monitoring
+	- Evaluation
+	- Improvement of the critical infrastructure protection plan
+- Look for:
+	- Feedback loops
+	- Incident analysis
+	- Regular updates to the plan based on changing threats and vulnerabilities
+- Regularly review and updates the plan based on:
+	- Emerging threats
+	- Technological advancements
+	- Industry best practices
+- An Organisation actively monitors
+	- Threat intelligence sources
+	- Engages in information sharing with peers
+	- Participates in cybersecurity forums to stay ahead of evolving risks and mitigation strategies
+# Template Structure (CIP)
+- #### Introduction
+	- Purpose of the plan
+	- Scope and application
+	- Regulatory requirements
+	- Key definitions
+- #### Asset Identification and Categorisation
+	- Detailed inventory of critical assets
+	- Categorisation of assets
+- #### Risk Assessment
+	- Identification of risks
+	- Risk categorisation
+	- Risk evaluation and ranking
+- #### Mitigation Strategies
+	- For each risk identified, list the measures to prevent or reduce the risk
+	- Description of technologies, procedures and resources needed for risk mitigation
+- #### Protection Measures
+	- Physical security measures
+	- Cyber security measures
+	- Human Resource Measures
+	- Intellectual Property Measures
+- #### Emergency Response and Recovery Plans
+	- Emergency Response Plan detailing steps to take during a crisis situation
+	- Business continuity plan outlining how to maintain or quickly resume operations
+	- Disaster recovery plan specifying how to recover IT infrastructure and data
+	- Communication plan for internal and external communication during emergencies
+- #### Training and Awareness
+	- Training programs for employees to understand risks and follow procedures
+	- Awareness campaigns to promote a security-conscious culture
+- #### Plan Maintenance and Improvement
+	- Process for regular review and update of the CIP plan
+	- Procedure for learning from incidents and near-misses and updating the plan accordingly
+	- KPIs to measure the effectiveness of the CIP plan
+- #### Roles and Responsibilities
+	- Description of roles and responsibilities of key personnel in implementing the CIP plan
+- #### Resources and Budget
+	- Budget allocated for CIP activities
+	- Resources allocated for CIP activities
+- #### Conclusion
+	- Summary of the plan and its importance
+- #### Appendices
+	- Detailed inventory of assets
+	- Detailed risk assessment results
+	- Contact information for key personnel
+	- Relevant regulations and standards
