@@ -55,7 +55,7 @@ Installing and configuring Entra Connect requires the following accounts:
 
 Benefits of using Cloud Sync:
 - Lightweight
-- Manged from Entra ID
+- Managed from Entra ID
 - Data stored in Entra ID
 - Helps sync Entra ID to AD DS
 # Directory  Synchronization with Microsoft Entra Connect
