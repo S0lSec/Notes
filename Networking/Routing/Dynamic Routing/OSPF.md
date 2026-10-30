@@ -1,19 +1,28 @@
+OSPFv2 - IPv4
+OSPFv3 - IPv6
+## OSPF components
+## Routing Protocol Messages
+- Hello packet (discover neighbours & keep relationships alive)
+- Database description packet (Used to summarise their LSDB)
+- Link-state request packet (Used to request full LSA)
+- Link-state update packet (Response to LSR)
+- Link-state acknowledgement packet (Used to acknowledge response)
 # Open Shortest Path First
 ![[Pasted image 20260807082714.png]]
 - Area - Logical Grouping of Routers
 - All areas must go back to area 0 to prevent loops
 - Not a requirement but starting with Area 0 is good practice
 - Keep in mind not to overwhelm routers when designing area
-# OSPF Neighbors
+# OSPF Neighbours
 - Link State Advertisements (LSAs) is just routers learning of one another's existence
 - Runs directly over IPv4 using IP protocol number 89 (reserved by IANA)
 - Both routers must be running OSPF
-- Hello packets advertise OSPF parameters, which **must match** for a neighbor relationship to form
+- Hello packets advertise OSPF parameters, which **must match** for a neighbour relationship to form
 - Knowledge of existing routers are stored in the Link-State Database (LSDB), storing each routers LSA
-- If a neighbor fails, OSPF floods updated LSAs and re-runs the SPF algorithm
+- If a neighbour fails, OSPF floods updated LSAs and re-runs the SPF algorithm
 - New routers are dynamically discovered using Hello packets
 # LSA Flooding & Link State Database![[Pasted image 20260807083206.png]]
-- Routers flood Link State Advertisements (LSAs) to all OSPF neighbors
+- Routers flood Link State Advertisements (LSAs) to all OSPF neighbours
 - Because of LSA flooding, all routers in the same OSPF area have an identical LSDB
 - The Link State Database (LSDB) is a collection of all received LSAs, representing the network topology
 ![[Pasted image 20260807083230.png]]

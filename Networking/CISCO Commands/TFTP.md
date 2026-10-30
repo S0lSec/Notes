@@ -1,0 +1,1 @@
+`ip tftp source-interface gig0/0`

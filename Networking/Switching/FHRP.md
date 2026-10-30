@@ -19,8 +19,45 @@ When the active router fails, the redundancy protocol transitions the standby ro
 3. Because the new forwarding router assumes both IPv4 and MAC addresses of the virtual router, the host devices see no disruptions in service
 ![[Pasted image 20260428123652.png]]
 # Host Standby Router Protocol (HSRP)
+[link](https://community.cisco.com/t5/networking-knowledge-base/hsrp-overview-and-basic-configuration/ta-p/3131590)
 - Used to avoid losing outside network access if your default router fails
 - Ensures high network availability by providing first-hop redundancy for IP hosts on networks configured with an IP default gateway address
+- Configures a virtual gateway IP address to ensure a default gateway is always available
+- Group number range is 0 - 255 for version 1
+- Group number range is 0 - 4095 for version 2
+**Configuration**
+```
+! Configure the primary Layer 3 switch
+Core1# configure terminal
+Core1(config)# interface Vlan10
+Core1(config-if)# ip address 192.168.10.2. 255.255.255.0
+
+! Activates HSRP group 10 and assigns a virtual gateway address
+Core1(config-if)# standby 10 ip 192.168.10.1
+
+! Sets the election weight (default value is 100)
+Core1(config-if)# standby 10 priority 110
+
+! Forces the switch to take back the active role after coming onlien
+Core1(config-if)# standby 10 preempt
+
+! Configure the secondary Layer 3 switch
+Core2# configure terminal
+Core2(config)# interface Vlan10
+Core2(config-if)# ip address 192.168.10.3 255.255.255.0
+Core2(config-if)# standby 10 ip 192.168.10.1
+Core2(config-if)# standby 10 preempt
+```
+(**Note:** Ensure that layer 2 switches are using trunking on ports connecting to core switches.)
+
+**Verification**
+```
+! Switch states
+show standby brief
+
+! Detailed readout
+show standby
+```
 ## Priority
 - Used to determine active routers
 - Router with highest priority becomes active router
