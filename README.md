@@ -1,3 +1,4 @@
+(Recently purged)
 Nothing special just notes on cyber sec
 - Created in obsidian
 - Feel free to use
