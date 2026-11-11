@@ -30,7 +30,7 @@ When the active router fails, the redundancy protocol transitions the standby ro
 ! Configure the primary Layer 3 switch
 Core1# configure terminal
 Core1(config)# interface Vlan10
-Core1(config-if)# ip address 192.168.10.2. 255.255.255.0
+Core1(config-if)# ip address 192.168.10.2 255.255.255.0
 
 ! Activates HSRP group 10 and assigns a virtual gateway address
 Core1(config-if)# standby 10 ip 192.168.10.1
